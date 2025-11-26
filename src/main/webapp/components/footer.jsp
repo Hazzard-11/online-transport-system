@@ -1,0 +1,1 @@
+<style> .footer { position: fixed; bottom: 0; left: 0; width: 100%; background-color: #000000c7; color: #fff; text-align: center; padding: 10px 0; border-top: 2px solid #ccc; font-size: 14px; z-index: 1000; border-radius: 0 0 10px 10px; } </style> <div class="footer"> <p>&copy; 2025 Online Transport System | Designed by NANBARKAL Team</p> </div>

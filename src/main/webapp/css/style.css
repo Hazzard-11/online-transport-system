@@ -1,0 +1,68 @@
+body {
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(to right, #f9f9f9, #e1f5f9);
+margin: 0;
+padding: 0 0 60px 0; /* leave space for fixed footer */
+color: #333;
+}
+
+.header, .footer, .navbar {
+background-color: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(5px);
+border-radius: 16px;
+padding: 10px 20px;
+margin: 10px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+margin: 0 12px;
+text-decoration: none;
+color: #007bff;
+font-weight: bold;
+}
+
+.footer {
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.75);
+color: #fff;
+text-align: center;
+padding: 10px 0;
+font-size: 14px;
+z-index: 1000;
+border-radius: 0 0 10px 10px;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+margin-top: 10px;
+border-radius: 12px;
+overflow: hidden;
+}
+
+th, td {
+padding: 10px;
+border-bottom: 1px solid #ccc;
+text-align: left;
+}
+
+input, select, textarea {
+border-radius: 8px;
+border: 1px solid #ccc;
+padding: 6px;
+width: 100%;
+margin-bottom: 10px;
+}
+
+input[type="submit"], button {
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 8px;
+padding: 8px 12px;
+cursor: pointer;
+}
